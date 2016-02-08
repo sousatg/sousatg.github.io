@@ -1,207 +1,23 @@
-<!doctype html>
+---
+layout: default
+---
 
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>Tiago Sousa - Site Pessoal</title>
-		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-		<link href="css/jquery.onepage-scroll.css" rel="stylesheet" />
-		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
-		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css' />
-		<link href='http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700' rel='stylesheet' type='text/css'>
+<div class="home">
 
-		<style>
-			* {
-				font-family: 'Merriweather', serif;
-				font-family: 'Lato', serif;
-				font-weight: 400;
-			}
-			h1, h2, h3, h4, h5, h6 {
-				font-family: "Lato";
-				font-weight: 200;
-			}
+  <h1 class="page-heading">Posts</h1>
 
-			p {
-				font-size: 20px;
-				line-height: 1.5;
-				font-family: 'Merriweather', serif;
-				font-family: 'Lato', serif;
-				font-weight: 400;
-			}
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-			.h3 {
-				font-family: "lato", serif;
-				font-weight: 200;
-			}
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
-			.title {
-				font-size: 40px;
-				margin-bottom: 20px;
-				font-weight: 700;
-			}
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-			.btn-red {
-				background: #bf272d;
-				border-color: #a3212a;
-				color: #fff;
-			}
-			#home {
-				background-color: #a1e5de;
-				background-image: url(img/desk-bg.png);
-				background-position: top right;
-				background-repeat: no-repeat;
-			}
-
-			#mywork {
-				background: rgb(89, 171, 227);
-				color: #ecf0f1;
-			}
-
-			#mywork .title {
-				color: #fff;
-			}
-
-			#l-hobbies {
-				background: #e67e22;
-				color: #fff;
-			}
-
-			#l-github {
-				background-color: #bf272d;
-				color: #fff;
-			}
-
-			.label-tag {
-				background-color: #d67520;
-				background-color: #e67e22;
-				border: 1px solid #894101;
-				margin: 5px;
-				color: #894101;
-			}
-
-			.github-log {
-				max-height: 400px;
-				width: auto;
-			}
-
-			#social-icons {
-				margin: 20px 0;
-			}
-		</style>
-
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-	</head>
-	<body>
-		<div class="main">
-			<section id="home">
-				<div class="container v-center">
-					<div class="row">
-						<div class="col-sm-6 col-sm-offdswset-6">
-							<h1 class="title element-animation">Tiago Sousa</h1>
-							<h2 class="h3">Web Developer</h2>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section id="l-hobbies">
-				<div class="container v-center">
-					<div class="row">
-						<div class="col-sm-6 text-center visible-md visible-lg">
-							<img src="img/owl.png" />
-						</div>
-						<div class="col-sm-6">
-							<h1 class="title">As minhas skills</h1>
-							<h2 class="h3">Linguagens de programação:</h2>
-							<ul class="list-inline">
-								<li class="label-tag">PHP</li>
-								<li class="label-tag">Python</li>
-								<li class="label-tag">Javascript</li>
-							</ul>
-							<h2 class="h3">Frameworks:</h2>
-							<ul class="list-inline">
-								<li class="label-tag">Angular JS</li>
-								<li class="label-tag">Ember Js</li>
-								<li class="label-tag">Twitter Boostrap</li>
-								<li class="label-tag">Laravel</li>
-								<li class="label-tag">Slim Framework</li>
-								<li class="label-tag">jQuery</li>
-								<li class="label-tag">jQuery UI</li>
-								<li class="label-tag">jQuery Mobile</li>
-							</ul>
-							<h2 class="h3">Outros:</h2>
-							<ul class="list-inline">
-								<li class="label-tag">HTML5</li>
-								<li class="label-tag">CSS3</li>
-								<li class="label-tag">Cordova</li>
-								<li class="label-tag">Ionic</li>
-								<li class="label-tag">Wordpress</li>
-								<li class="label-tag">OpenCart</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section id="mywork">
-				<div class="container v-center">
-					<div class="row">
-						<div class="col-sm-6">
-							<h1 class="title">JSFiddle</h1>
-							<p>Podem ver alguns dos meus trabalhos em sites como JSFiddle, GitHub. Maioritariamente snippets de código criados em particiapões em foruns sobre programação Web com o fim de demonstrar resoluções para problemas ou conceitos de programação.</p>
-							<a href="http://jsfiddle.net/user/sousatg/fiddles/" target="_blank" class="btn btn-red btn-lg">OS MEUS FIDDLE's</a>
-						</div>
-						<div class="col-sm-6 text-center visible-md visible-lg">
-							<img src="img/rocket-bg.png" />
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section id="l-github">
-
-				<div class="container v-center">
-					<div class="row">
-						<div class="col-sm-6 text-cemter visible-md visible-lg">
-							<img src="img/github-logo.png" class="github-log" />
-						</div>
-						<div class="col-sm-6">
-							<h1 class="title">GitHub</h1>
-							<p>No meu GitHub podem ser encontrados alguns projectos criados em PHP, Python e JavaScript tais como um tema para Wordpress que permite criar concursos de programação, um jogo criado com Python e Django entre outros.</p>
-							<a href="http://github.com/sousatg" target="_blank" class="btn btn-primary btn-lg">MEU GITHUB</a>
-						</div>
-					</div>
-				</div>
-
-			</section>
-
-
-			<section id="contact">
-				<div class="container v-center">
-					<div class="row">
-						<div class="col-sm-12 text-center">
-							<h1 class="title">Drop me a line</h1>
-							<a href="#"><i class="fa fa-envelope"></i> tiagosousafl@gmail.com</a>
-							<ul id="social-icons" class="list-inline">
-								<li><a href="http://pt.linkedin.com/in/sousatg" target="_blank"><img src="img/social-media-icons/linkedin.png" /></a></li>
-								<li><a href="http://geek-wire.com" target="_blank"><img src="img/social-media-icons/tumblr.png" /></a></li>
-								<li><a href="http://twitter.com/sousatg" target="_blank"><img src="img/social-media-icons/twitter.png" /></a></li>
-								<li><a href="http://facebook.com/sousatg" target="_blank"><img src="img/social-media-icons/facebook.png" /></a></li>
-								<li><a href="http://instagram.com/sousatg" target="_blank"><img src="img/social-media-icons/instagram.png" /></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</section>
-		</div><!-- //.main -->
-
-		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-		<script src="js/jquery.onepage-scroll.min.js"></script>
-		<script src="js/jquery.flexverticalcenter.js"></script>
-		<script>
-			$(".main").onepage_scroll();
-			$('.v-center').flexVerticalCenter({ cssAttribute: 'padding-top' });
-		</script>
-	</body>
-</html>
+</div>
