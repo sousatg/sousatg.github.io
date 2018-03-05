@@ -3,15 +3,16 @@ layout: post
 summary: A skelleton to bootstrap the creation of REST API's using Flask.
 ---
 
-URL: https://github.com/sousatg/flask-skeleton-api
+### URL: 
+[https://github.com/sousatg/flask-skeleton-api]()
 
-Features:
+### Features:
 * Serialization
 * JWT Authentication
 * CORS Support
 * Migrations
 
-Users:
+### Uses:
 * Flask-CORS
 * Flask-JWT
 * Flask-Migrations
