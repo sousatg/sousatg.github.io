@@ -1,10 +1,10 @@
 ---
-layout:  PIG LATIN RESTFUL TRANSLATOR API
+layout:  post
 summary: REST API deceloped with Flask
 ---
 
 ### URL: 
-[https://github.com/sousatg/piglatin]()
+[https://github.com/sousatg/piglatin](https://github.com/sousatg/piglatin)
 
 ### Features:
 * User registraion
