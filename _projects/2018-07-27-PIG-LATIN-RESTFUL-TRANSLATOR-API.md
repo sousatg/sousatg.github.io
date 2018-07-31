@@ -1,6 +1,6 @@
 ---
 layout:  post
-summary: REST API deceloped with Flask
+summary: REST API developed using Flask
 ---
 
 ### URL: 
