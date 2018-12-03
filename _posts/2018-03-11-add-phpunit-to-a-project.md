@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Add PHPUnit to a project
 summary: 
 ---
 
