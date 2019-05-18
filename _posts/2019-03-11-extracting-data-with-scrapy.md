@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Creating a REST API from Fanwiki data
-summary: Using Scrapy to extra data to build a REST API with ExpressJS and MongoDB.
+title: Extracting data with Scrapy
+summary: Using Scrapy to extra data.
 ---
 
 # Start a new Scrapy project
