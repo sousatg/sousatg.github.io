@@ -7,12 +7,10 @@ layout: default
   {{ content }}
   
   <ul class="post-list">
-    {% for post in site.projects  %}
+    {% for post in site.projects reversed %}
       <li>
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-        <p>{{ post.summary }}</p>
+        <h2><a href="{{ post.link }}" target="blank">{{ post.title | escape }}</a></h2>
+        <p>{{ post.content }}</p>
       </li>
     {% endfor %}
   </ul>

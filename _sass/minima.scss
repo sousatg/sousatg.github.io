@@ -49,3 +49,12 @@ $on-laptop:        800px !default;
   "minima/layout",
   "minima/syntax-highlighting"
 ;
+
+
+html {
+  overflow-y: scroll;
+}
+
+.tags {
+  font-size: 9px;
+}
