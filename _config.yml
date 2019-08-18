@@ -21,7 +21,7 @@ collections:
 header_pages:
 - index.md
 - projects.md
-- blog.md
+# - blog.md
 
 # Build settings
 markdown: kramdown

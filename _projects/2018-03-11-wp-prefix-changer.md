@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Wordpress - Prefix Changer
+title: Prefix Changer
 link: https://wordpress.org/plugins/wp-prefix-changer/
 ---
 
