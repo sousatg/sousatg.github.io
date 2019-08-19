@@ -8,6 +8,10 @@ link: https://sousatg.github.io/react-game-clock/
 
 This web application was created to explore [TypeScript](https://www.typescriptlang.org/) with React has well as testing the [React Hooks](https://reactjs.org/docs/hooks-intro.html) and the [Context API](https://reactjs.org/docs/context.html).
 
+<b>Source Code</b>
+- [https://github.com/sousatg/react-game-clock](https://github.com/sousatg/react-game-clock)
+
+<p />
 
 <b>Technologies used</b>
 <ul>
