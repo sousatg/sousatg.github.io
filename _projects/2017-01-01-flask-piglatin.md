@@ -4,11 +4,13 @@ title: Piglatin
 link: https://github.com/sousatg/piglatin
 ---
 
-<!--
-<img src="/images/piglatin.jpg">
--->
+Pig Latin is a language game or argot in which words in English are altered, usually by adding a fabricated suffix or by moving the onset or initial consonant or consonant cluster of a word to the end of the word and adding a vocalic syllable to create such a suffix.
 
-Piglatin is a web application that allows users to send text to be converted to piglatin format, registered users have the ability to update or remove texts submited by themselves.
+
+<b>Source Code</b>
+- [https://github.com/sousatg/piglatin](https://github.com/sousatg/piglatin)
+
+<p />
 
 <b>Technologies used</b>
 <ul>

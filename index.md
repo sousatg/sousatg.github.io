@@ -1,8 +1,11 @@
 ---
 layout: home
-title: Home
+title: About
 ---
 
-Hi! My name is Gil Sousa. Interested in XP, Python, Node, PHP and DevOps. Currently working as software development manager @Flipside. Trying to learn something new every day.
 
-See [projects](/projects) for some more information or check out my [Github profile](https://github.com/sousatg){:target="_blank"}.
+<img class="profile-img" src="/images/gil.jpg" />
+
+My name is Gil. I live in London. Working at Futurice as a lead developer designing and implementing digital services.
+
+See the [projects](/projects) sections of this website for a list of my side projects or check out my [Github profile](https://github.com/sousatg){:target="_blank"}.

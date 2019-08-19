@@ -58,3 +58,17 @@ html {
 .tags {
   font-size: 9px;
 }
+
+.post-list > .project {
+  margin-bottom: 70px;
+}
+
+.post-list > .project:last-child {
+  margin-bottom: 0px;
+}
+
+.profile-img {
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+}
