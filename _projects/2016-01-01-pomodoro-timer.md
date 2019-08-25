@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Pomodoro Clock
+title: Pomodoro Timer
 link: https://github.com/sousatg/piglatin
 ---
 
-Application to help use the pomodoro technique for time management.
+[Timer](https://sousath.github.io/react-pomodoro) to be used in the pomodoro time management.
 
 <b>Source Code</b>
 - [https://github.com/sousatg/react-pomodoro](https://github.com/sousatg/react-pomodoro)
