@@ -4,7 +4,7 @@ title: Pomodoro Timer
 link: https://github.com/sousatg/piglatin
 ---
 
-[Timer](https://sousath.github.io/react-pomodoro) to be used in the pomodoro time management.
+[Timer](https://gilsousa.dev/react-pomodoro/) to be used in the pomodoro time management.
 
 <b>Source Code</b>
 - [https://github.com/sousatg/react-pomodoro](https://github.com/sousatg/react-pomodoro)
