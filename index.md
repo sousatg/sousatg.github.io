@@ -9,9 +9,14 @@ title: About
     </div>
     <div class="col-xs-7">
         <p>My name is Gil. Original from Portugal now living in the United Kingdom.</p>
-        <p>I have experience creating and delivering Microservices Architectures, Service-Based Architectures, and Service-Oriented Architectures.</p>
+
+        <p>I’m a software developer with 11 years of experience, nine of each were spent as a consultant helping companies design and implement software systems using software development best practices adequate to the problems being solved.</p>
+
+        <p>During my career I had the opportunity to start working on high volume traffic systems and how to scale them which has enable me to dive deeply in topics such has Software Architecture (SOA, Microservices, EDA), horizontal and vertical scaling of web applications and relational and non relation databases.</p>
+
         <p>See the <a href="/projects">projects</a> sections of this website for a list of my side projects or check out my <a href="https://github.com/sousatg">Github profile</a>.</p>
     </div>
+
 </div>
 
 <!--
