@@ -14,7 +14,9 @@ title: About
 
         <p>During my career I had the opportunity to start working on high volume traffic systems and how to scale them which has enable me to dive deeply in topics such has Software Architecture (SOA, Microservices, EDA), horizontal and vertical scaling of web applications and relational and non relation databases.</p>
 
+        <!--
         <p>See the <a href="/projects">projects</a> sections of this website for a list of my side projects or check out my <a href="https://github.com/sousatg">Github profile</a>.</p>
+        -->
     </div>
 
 </div>
