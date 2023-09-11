@@ -71,3 +71,10 @@ html {
   width: 300px;
   float: left;
 }
+
+.skill-list {
+  list-style: none;
+  margin: 10px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+}
