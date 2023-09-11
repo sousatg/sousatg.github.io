@@ -75,6 +75,19 @@ html {
 .skill-list {
   list-style: none;
   margin: 10px 0;
-  display: grid;
-  grid-template-columns: repeat(3, 33%);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pill {
+  background-color: #f1f1f1;
+  color: #1d1d1d;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+  border: 1px solid #1d1d1d;
+  font-size: 12px;
 }

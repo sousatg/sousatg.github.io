@@ -13,42 +13,42 @@ title: About
 
 <h4>Advanced</h4>
 <ul class="skill-list">
-    <li>Python</li>
-    <li>Flask</li>
-    <li>Docker</li>
-    <li>SQLAlchemy</li>
+    <li><div class="pill">Python</div></li>
+    <li><div class="pill">Flask</div></li>
+    <li><div class="pill">Docker</div></li>
+    <li><div class="pill">SQLAlchemy</div></li>
 </ul>
 
 <h4>High Competence</h4>
 <ul class="skill-list">
-    <li>SQL</li>
-    <li>AWS</li>
-    <li>React</li>
-    <li>PHP</li>
-    <li>NodeJS</li>
-    <li>Javascript</li>
+    <li><div class="pill">SQL</div></li>
+    <li><div class="pill">AWS</div></li>
+    <li><div class="pill">React</div></li>
+    <li><div class="pill">PHP</div></li>
+    <li><div class="pill">NodeJS</div></li>
+    <li><div class="pill">Javascript</div></li>
 </ul>
 
 <h4>Intermediate</h4>
 <ul class="skill-list">
-    <li>Terraform</li>
-    <li>Ansible</li>
-    <li>Datadog</li>
-    <li>React Native</li>
-    <li>RabbitMQ</li>
-    <li>Kubernetes</li>
-    <li>Golang</li>
-    <li>Django</li>
-    <li>TypeScript</li>
-    <li>Elasticsearch</li>
-    <li>C#</li>
-    <li>MySQL</li>	
-    <li>Symfony</li>
-    <li>Golang</li>
-    <li>Postgres</li>
+    <li><div class="pill">Terraform</div></li>
+    <li><div class="pill">Ansible</div></li>
+    <li><div class="pill">Datadog</div></li>
+    <li><div class="pill">React Native</div></li>
+    <li><div class="pill">RabbitMQ</div></li>
+    <li><div class="pill">Kubernetes</div></li>
+    <li><div class="pill">Golang</div></li>
+    <li><div class="pill">Django</div></li>
+    <li><div class="pill">TypeScript</div></li>
+    <li><div class="pill">Elasticsearch</div></li>
+    <li><div class="pill">C#</div></li>
+    <li><div class="pill">MySQL</div></li>	
+    <li><div class="pill">Symfony</div></li>
+    <li><div class="pill">Golang</div></li>
+    <li><div class="pill">Postgres</div></li>
 </ul>
 
-<h2>Talks</h2>
+<!-- <h2>Talks</h2>
 
 <table>
     <tbody>
@@ -88,4 +88,4 @@ title: About
             </td>
         </tr>
     </tbody>
-</table>
+</table> -->
