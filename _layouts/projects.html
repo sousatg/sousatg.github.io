@@ -7,10 +7,17 @@ layout: default
   {{ content }}
   
   <ul class="post-list">
-    {% for post in site.projects reversed %}
+    {% for project in site.projects reversed %}
       <li class="project">
-        <h2>{{ post.title | escape }}</h2>
-        <p>{{ post.content }}</p>
+        <h2>{{ project.title | escape }}</h2>
+        <p>{{ project.content }}</p>
+
+        {% assign tech = project.tech | split: "," %}
+        <ul>
+          {% for i in tech  %}
+          <li>{{ i }}</li>
+          {% endfor %}
+        </ul>
       </li>
     {% endfor %}
   </ul>
