@@ -25,3 +25,6 @@ header_pages:
 
 # Build settings
 markdown: kramdown
+
+
+excerpt_separator: <!--more-->

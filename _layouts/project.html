@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<article class="post-content">
+
+  <header>
+    <h2 itemprop="name headline">{{ page.title | escape }}</h2>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    {{ content | remove: page.excerpt }}
+
+    <h3 id="technologies-used">Technologies Used</h3>
+
+    {% if page.tech %}
+    {% assign tech = page.tech | split: "," %}
+    <ul class="skill-list">
+        {% for i in tech  %}
+            <li><div class="pill">{{ i }}</div></li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    <ul>
+  </div>
+</article>

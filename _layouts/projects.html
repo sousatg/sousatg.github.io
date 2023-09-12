@@ -2,24 +2,24 @@
 layout: default
 ---
 
-<div class="home">
+{% for project in site.projects reversed %}
+<article class="post-content">
+  <header>
+    <a href="{{ project.url | relative_url }}">
+      <h2 itemprop="name headline">{{ project.title | escape }}</h2>
+    </a>
+  </header>
 
-  {{ content }}
-  
-  <ul class="post-list">
-    {% for project in site.projects reversed %}
-      <li class="project">
-        <h2>{{ project.title | escape }}</h2>
-        <p>{{ project.content }}</p>
+  <p>{{ project.excerpt }}</p>
 
-        {% assign tech = project.tech | split: "," %}
-        <ul>
-          {% for i in tech  %}
-          <li>{{ i }}</li>
-          {% endfor %}
-        </ul>
-      </li>
+  {% if project.tech %}
+  {% assign tech = project.tech | split: "," %}
+  <ul class="skill-list">
+    {% for i in tech  %}
+      <li><div class="pill">{{ i }}</div></li>
     {% endfor %}
   </ul>
+  {% endif %}
 
-</div>
+</article>
+{% endfor %}
